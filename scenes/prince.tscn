@@ -196,9 +196,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_31cv2")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"smak",
-"speed": 8.0
+"speed": 15.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fjrip"]
@@ -211,7 +211,7 @@ script = ExtResource("1_g2els")
 position = Vector2(4.5, -4.5)
 scale = Vector2(1.28125, 1.28125)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"run"
+animation = &"smak"
 autoplay = "idol"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1430748958]

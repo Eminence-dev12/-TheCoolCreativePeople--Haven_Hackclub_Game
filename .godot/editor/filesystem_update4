@@ -2,3 +2,6 @@ res://scenes/archer_enemy.tscn
 res://scenes/character_select.tscn
 res://scripts/arrow.tscn
 res://scripts/killzone.gd
+res://scenes/prince.tscn
+res://scripts/player.gd
+res://scenes/mage.tscn
