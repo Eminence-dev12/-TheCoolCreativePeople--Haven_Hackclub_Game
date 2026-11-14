@@ -9,3 +9,5 @@ res://scenes/prince.tscn
 res://scripts/Game.gd
 res://DeathRandom.gd
 res://scripts/killzone.gd
+res://scenes/archer_enemy.tscn
+res://scenes/killzone.tscn
