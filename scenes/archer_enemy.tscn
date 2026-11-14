@@ -6,7 +6,17 @@
 [sub_resource type="GDScript" id="GDScript_3owqy"]
 resource_name = "Fire"
 script/source = "extends CharacterBody2D
+const ArrowScene := preload(\"res://scripts/arrow.tscn\")
+
 @onready var vision: RayCast2D = $vision
+@onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
+var vision_range: float
+var player_target: Vector2
+
+func _ready() -> void:
+	vision_range = vision.target_position.length()
+	sprite.animation_finished.connect(_on_animation_finished)
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	var player := get_parent().get_node_or_null(\"Mage\") as CharacterBody2D
@@ -18,26 +28,41 @@ func _process(delta: float) -> void:
 	var body := player.get_node_or_null(\"CollisionShape2D\") as CollisionShape2D
 	if body != null:
 		target = body.global_position
-	vision.target_position = vision.to_local(target)
+	player_target = target
+	var direction: Vector2 = vision.to_local(target)
+	vision.target_position = direction.normalized() * vision_range
 	vision.force_raycast_update()
+	sprite.flip_h = direction.x < 0.0
 	if vision.is_colliding() and vision.get_collider() == player:
-		print(\"player spotted\")
+		if sprite.animation != \"fire\" or not sprite.is_playing():
+			sprite.play(\"fire\")
+	else:
+		if sprite.animation != \"idol\":
+			sprite.play(\"idol\")
+
+func _on_animation_finished() -> void:
+	if sprite.animation != \"fire\":
+		return
+	var arrow := ArrowScene.instantiate() as CharacterBody2D
+	add_child(arrow)
+	arrow.global_position = global_position
+	arrow.shoot(player_target)
 "
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
-atlas = ExtResource("1_b43d7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_b43d7"]
+atlas = ExtResource("2_6hql2")
 region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_dqkch"]
-atlas = ExtResource("1_b43d7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hql2"]
+atlas = ExtResource("2_6hql2")
 region = Rect2(32, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
-atlas = ExtResource("1_b43d7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_codkn"]
+atlas = ExtResource("2_6hql2")
 region = Rect2(64, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
-atlas = ExtResource("1_b43d7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_528ra"]
+atlas = ExtResource("2_6hql2")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fjrip"]
@@ -152,16 +177,16 @@ region = Rect2(288, 128, 32, 32)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qhqgy")
+"texture": SubResource("AtlasTexture_b43d7")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_dqkch")
+"texture": SubResource("AtlasTexture_6hql2")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qlg0r")
+"texture": SubResource("AtlasTexture_codkn")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tuyoq")
+"texture": SubResource("AtlasTexture_528ra")
 }],
 "loop": 1,
 "name": &"idol",
@@ -224,9 +249,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yfp82")
 }],
-"loop": 1,
-"name": &"run",
-"speed": 3.0
+"loop": 0,
+"name": &"fire",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -274,14 +299,13 @@ script = SubResource("GDScript_3owqy")
 position = Vector2(4.5, -4.5)
 scale = Vector2(1.28125, 1.28125)
 sprite_frames = SubResource("SpriteFrames_codkn")
-animation = &"run"
-autoplay = "run"
-frame = 5
-frame_progress = 0.6236845
+animation = &"fire"
+autoplay = "idol"
+frame_progress = 0.7295101
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1184963791]
 position = Vector2(5, 9)
 shape = SubResource("CircleShape2D_528ra")
 
 [node name="vision" type="RayCast2D" parent="." unique_id=1483667641]
-target_position = Vector2(-606, 0)
+target_position = Vector2(-197, 0)

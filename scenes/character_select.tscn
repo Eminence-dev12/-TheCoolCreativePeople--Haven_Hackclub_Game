@@ -105,6 +105,43 @@ offset_right = 1084.416
 offset_bottom = 415.912
 color = Color(0.56823975, 0.42036468, 0.16998321, 1)
 
+[node name="Button7" type="Button" parent="." unique_id=405829201]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 300.0
+offset_right = 298.0
+offset_bottom = 332.0
+
+[node name="Button8" type="Button" parent="." unique_id=1772321430]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 352.0
+offset_right = 297.0
+offset_bottom = 384.0
+text = "
+"
+
+[node name="Button9" type="Button" parent="." unique_id=2139318790]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 403.0
+offset_right = 297.0
+offset_bottom = 435.0
+
+[node name="Button10" type="Button" parent="." unique_id=589494049]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 453.0
+offset_right = 296.0
+offset_bottom = 485.0
+
+[node name="Button11" type="Button" parent="." unique_id=1579120779]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 504.0
+offset_right = 296.0
+offset_bottom = 536.0
+
 [connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]

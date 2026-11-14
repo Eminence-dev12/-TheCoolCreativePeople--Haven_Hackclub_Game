@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://gfosaog8ejx"]
+
+[ext_resource type="Script" uid="uid://5j06f5fdy0ab" path="res://scripts/arrow.gd" id="1_arrow"]
+[ext_resource type="Texture2D" uid="uid://d0xjua5lg0b8g" path="res://Arrow(Projectile)/Arrow01(32x32).png" id="2_arrow"]
+[ext_resource type="PackedScene" uid="uid://bhpcnw5xs7de6" path="res://scenes/killzone.tscn" id="3_x5n2x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_snrrf"]
+size = Vector2(20, 3)
+
+[node name="Arrow" type="CharacterBody2D" unique_id=1800695376]
+script = ExtResource("1_arrow")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2071607848]
+texture = ExtResource("2_arrow")
+
+[node name="Killzone" parent="." unique_id=1407055577 instance=ExtResource("3_x5n2x")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone" unique_id=1856704540]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_snrrf")
