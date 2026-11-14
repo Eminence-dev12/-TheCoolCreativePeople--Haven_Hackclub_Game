@@ -1,0 +1,14 @@
+# Godot 4+ cache / generated data (regenerated on each machine — never commit this)
+.godot/
+
+# macOS
+.DS_Store
+
+# Godot export builds
+export_presets.cfg
+*.exe
+*.dmg
+*.zip
+
+# Imported translations (auto-generated)
+*.translation
