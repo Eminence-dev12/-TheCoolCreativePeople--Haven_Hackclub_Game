@@ -211,9 +211,8 @@ script = ExtResource("1_g2els")
 position = Vector2(4.5, -4.5)
 scale = Vector2(1.28125, 1.28125)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"jump"
+animation = &"run"
 autoplay = "idol"
-frame_progress = 0.955473
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(5, 9)
