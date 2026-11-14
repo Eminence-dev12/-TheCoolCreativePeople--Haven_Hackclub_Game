@@ -1,5 +1,11 @@
-res://Game.tscn
 res://scenes/player.tscn
+res://Game.tscn
+res://scenes/main_menu.tscn
 res://scripts/player.gd
+res://scenes/character_select.tscn
+res://scenes/mage.tscn
+res://scripts/Global.gd
+res://scenes/prince.tscn
+res://scripts/Game.gd
+res://DeathRandom.gd
 res://scripts/killzone.gd
-res://scenes/killzone.tscn

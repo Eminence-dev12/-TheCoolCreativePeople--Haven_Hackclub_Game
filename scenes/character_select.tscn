@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://celsrct84w7n4"]
+
+[ext_resource type="FontFile" uid="uid://dbvrjamf2jcfv" path="res://assets/fonts/PixelOperator8.ttf" id="1_x8mhf"]
+
+[sub_resource type="GDScript" id="GDScript_jgus3"]
+resource_name = "characterSelect"
+script/source = "extends Control
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	print(Global.selected_character)
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_button_5_pressed() -> void:
+	Global.selected_character = 1 
+	print(\"you Chose prince!\")# Replace with function body.
+
+
+func _on_button_pressed() -> void:
+	Global.selected_character = 2
+	print(\"you choose mage\") # Replace with function body.
+
+
+func _on_button_6_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://scenes/main_menu.tscn\") # Replace with function body.
+"
+
+[node name="Character select" type="Control" unique_id=1967442771]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_jgus3")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=245228021]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 651.0
+
+[node name="Button5" type="Button" parent="." unique_id=1634255022]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 40.0
+offset_right = 300.0
+offset_bottom = 72.0
+text = "prince"
+
+[node name="Button" type="Button" parent="." unique_id=193153732]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 92.0
+offset_right = 299.0
+offset_bottom = 124.0
+text = "mage
+"
+
+[node name="Button2" type="Button" parent="." unique_id=1017234063]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 143.0
+offset_right = 299.0
+offset_bottom = 175.0
+
+[node name="Button4" type="Button" parent="." unique_id=310943542]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 193.0
+offset_right = 298.0
+offset_bottom = 225.0
+
+[node name="Button3" type="Button" parent="." unique_id=2016095991]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 244.0
+offset_right = 298.0
+offset_bottom = 276.0
+
+[node name="Button6" type="Button" parent="." unique_id=2083879914]
+layout_mode = 0
+offset_left = 711.0
+offset_top = 490.0
+offset_right = 1038.0
+offset_bottom = 603.0
+theme_override_constants/h_separation = 8
+theme_override_fonts/font = ExtResource("1_x8mhf")
+theme_override_font_sizes/font_size = 63
+text = "Select!"
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=705125141]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.031000001
+offset_left = 632.0
+offset_top = 46.0
+offset_right = 1084.416
+offset_bottom = 415.912
+color = Color(0.56823975, 0.42036468, 0.16998321, 1)
+
+[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]

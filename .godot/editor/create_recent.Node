@@ -1,6 +1,11 @@
+Marker2D
+Node2D
+CharacterBody2D
+ColorRect
+Button
+Label
 CollisionShape2D
 Area2D
 AnimatedSprite2D
-CharacterBody2D
 Camera2D
 TileMap
