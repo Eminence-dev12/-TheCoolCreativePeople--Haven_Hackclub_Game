@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://gfosaog8ejx"]
+[gd_scene load_steps=0 format=3 uid="uid://gfosaog8ejx"]
 
 [ext_resource type="Script" uid="uid://5j06f5fdy0ab" path="res://scripts/arrow.gd" id="1_arrow"]
 [ext_resource type="Texture2D" uid="uid://d0xjua5lg0b8g" path="res://Arrow(Projectile)/Arrow01(32x32).png" id="2_arrow"]

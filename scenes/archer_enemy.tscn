@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://b7x08x54py48f"]
+[gd_scene load_steps=0 format=3 uid="uid://b7x08x54py48f"]
 
 [ext_resource type="Texture2D" uid="uid://b6wmm4m0de1n5" path="res://assets/sprites/MinifolksHumans/Outline/MiniKingMan.png" id="1_b43d7"]
 [ext_resource type="Texture2D" uid="uid://duatbh3mue2ym" path="res://assets/sprites/MinifolksHumans/Outline/MiniArcherMan.png" id="2_6hql2"]

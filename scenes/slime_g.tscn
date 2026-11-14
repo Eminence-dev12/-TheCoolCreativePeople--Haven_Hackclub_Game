@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://ct8ig5rhgs0jy"]
+[gd_scene load_steps=0 format=3 uid="uid://ct8ig5rhgs0jy"]
 
 [ext_resource type="Texture2D" uid="uid://p448s36j6sbi" path="res://assets/sprites/slime_green.png" id="1_ot3fn"]
 [ext_resource type="PackedScene" uid="uid://bhpcnw5xs7de6" path="res://scenes/killzone.tscn" id="2_ufak4"]

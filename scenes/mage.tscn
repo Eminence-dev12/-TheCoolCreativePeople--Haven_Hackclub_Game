@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://bijdyfhd0vv34"]
+[gd_scene load_steps=0 format=3 uid="uid://bijdyfhd0vv34"]
 
 [ext_resource type="Script" uid="uid://dpi44qxe31l7g" path="res://scripts/player.gd" id="1_t2cfv"]
 [ext_resource type="Texture2D" uid="uid://b6wmm4m0de1n5" path="res://assets/sprites/MinifolksHumans/Outline/MiniKingMan.png" id="1_y6d06"]
