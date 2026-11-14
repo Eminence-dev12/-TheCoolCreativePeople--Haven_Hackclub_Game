@@ -6,31 +6,22 @@
 [sub_resource type="GDScript" id="GDScript_3owqy"]
 resource_name = "Fire"
 script/source = "extends CharacterBody2D
-@onready var vision: RayCast2D = $\".\"
-@onready var prince: CharacterBody2D = $\".\"
-@onready var mage: CharacterBody2D = $\".\"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
+@onready var vision: RayCast2D = $vision
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if mage:
-		vision.target_position = vision.to_local(mage.global_position)
-		vision.force_raycast_update()
-		if vision.is_colliding():
-			var collider = vision.get_collider()
-			if collider == mage or collider.is_in_group(\"mage\"):
-				print(\"player spotted\")
-	elif prince:
-		vision.target_position = vision.to_local(prince.global_position)
-		vision.force_raycast_update()
-		if vision.is_colliding():
-			var collider = vision.get_collider()
-			if collider == prince or collider.is_in_group(\"prince\"):
-				print(\"player spotted\")
+	var player := get_parent().get_node_or_null(\"Mage\") as CharacterBody2D
+	if player == null:
+		player = get_parent().get_node_or_null(\"Prince\") as CharacterBody2D
+	if player == null:
+		return
+	var target: Vector2 = player.global_position
+	var body := player.get_node_or_null(\"CollisionShape2D\") as CollisionShape2D
+	if body != null:
+		target = body.global_position
+	vision.target_position = vision.to_local(target)
+	vision.force_raycast_update()
+	if vision.is_colliding() and vision.get_collider() == player:
+		print(\"player spotted\")
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
@@ -291,10 +282,6 @@ frame_progress = 0.6236845
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1184963791]
 position = Vector2(5, 9)
 shape = SubResource("CircleShape2D_528ra")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1581874312]
-zoom = Vector2(2.5, 2.5)
-limit_enabled = false
 
 [node name="vision" type="RayCast2D" parent="." unique_id=1483667641]
 target_position = Vector2(-606, 0)
