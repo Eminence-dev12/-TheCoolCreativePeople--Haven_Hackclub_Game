@@ -1,103 +1,103 @@
-78098b89c88a74ebe8c20117b8754620
-::res://::1794621521
-Game.tscn::PackedScene::1358830629689834378::1794621509::0::1::::<><><>0<>0<><>::uid://dp7ut0khj5crl::::res://assets/sprites/world_tileset.png<>uid://bpfxrctea716n::::res://scenes/player.tscn
-icon.svg::CompressedTexture2D/CompressedTexture2D::1550133514325293633::1794620205::1794620205::1::::<><><>0<>0<>752ca4e8695b37faa95c950b6fa682bd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1794620205::0::1::::<><><>0<>0<><>::
-::res://Arrow(Projectile)/::1794620205
-Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::8962046046039408756::1794620205::1794620205::1::::<><><>0<>0<>ad58d87cf4df1ba51a0195d64d7738fd<>res://.godot/imported/Arrow01(32x32).png-14c81a7200a8207b0a9204bd6a0e668e.ctex::
-Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::6686833145413639878::1794620205::1794620205::1::::<><><>0<>0<>40e18df719dfb3680d86ee614c71c7ab<>res://.godot/imported/Arrow01(100x100).png-62719fce38956432a4e3e2a8caddf353.ctex::
-::res://Aseprite file/::1794620205
-::res://assets/::1794620205
-::res://assets/fonts/::1794620205
-PixelOperator8-Bold.ttf::FontFile/FontFile::1727440646309687716::1794620205::1794620205::1::::<><><>0<>0<>cc10fc393ea9346f81620ae66dde0ca7<>res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata::
-PixelOperator8.ttf::FontFile/FontFile::7273851107376032223::1794620205::1794620205::1::::<><><>0<>0<>b5880eebf2225cad454cb08a219b7d0f<>res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata::
-::res://assets/music/::1794620205
-time_for_adventure.mp3::AudioStreamMP3/AudioStreamMP3::8702671327895192952::1794620205::1794620205::1::::<><><>0<>0<>ca18797d2b8c4bc644bc1198026269f4<>res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str::
-::res://assets/sounds/::1794620205
-coin.wav::AudioStreamWAV/AudioStreamWAV::4387486777171007680::1794620205::1794620205::1::::<><><>0<>0<>9c23b645b0d7a3647d1b8f65fcbfb342<>res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample::
-explosion.wav::AudioStreamWAV/AudioStreamWAV::8864759152411643328::1794620205::1794620205::1::::<><><>0<>0<>03f646da9e57973a8e67c3589ba80b8a<>res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample::
-hurt.wav::AudioStreamWAV/AudioStreamWAV::2815200886647425476::1794620205::1794620205::1::::<><><>0<>0<>08dafb6e45c96e4835db13261ef32d2d<>res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample::
-jump.wav::AudioStreamWAV/AudioStreamWAV::7493737424174671125::1794620205::1794620205::1::::<><><>0<>0<>1c60026f515245f83bbf780ebcd3bbec<>res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample::
-power_up.wav::AudioStreamWAV/AudioStreamWAV::9013889693309513697::1794620205::1794620205::1::::<><><>0<>0<>268a210aef7b525ffef4196ace6dff4f<>res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample::
-tap.wav::AudioStreamWAV/AudioStreamWAV::5960229170825922039::1794620205::1794620205::1::::<><><>0<>0<>fea436a5091de1e7958cab6d0c92714e<>res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample::
-::res://assets/sprites/::1794621509
-coin.png::CompressedTexture2D/CompressedTexture2D::6776325360766346751::1794620205::1794620205::1::::<><><>0<>0<>c783766014d45f81a1a0225701d96922<>res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex::
-fruit.png::CompressedTexture2D/CompressedTexture2D::5954543423126420189::1794620205::1794620205::1::::<><><>0<>0<>3b69562f2d054f4baef54abde0030e85<>res://.godot/imported/fruit.png-3735163b668af10c2b35b52cba81b68a.ctex::
-knight.png::CompressedTexture2D/CompressedTexture2D::723829585194523460::1794620205::1794620205::1::::<><><>0<>0<>5cfa1bae4255b4048d846ee991f9fde3<>res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex::
-platforms.png::CompressedTexture2D/CompressedTexture2D::4020336792688472979::1794620205::1794620205::1::::<><><>0<>0<>dc129f59ba31f2c762e2c340db2dad17<>res://.godot/imported/platforms.png-3869606db457611ed4193d705dc364e4.ctex::
-slime_green.png::CompressedTexture2D/CompressedTexture2D::1114520323523898970::1794620205::1794620205::1::::<><><>0<>0<>e61d09d98b104152029d821cb0ce5ca5<>res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex::
-slime_purple.png::CompressedTexture2D/CompressedTexture2D::8453500725239934853::1794620205::1794620205::1::::<><><>0<>0<>bd0ca9bf0d72e96b0d5fd0fc43305979<>res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex::
-UI.png::CompressedTexture2D::2703011506374536691::1794621509::1794621509::1::::<><><>0<>0<>056684834993e76814c85830a4b66ec8<>res://.godot/imported/UI.png-e2d90aaeb743ee71811c0e6b068775de.ctex::
-world_tileset.png::CompressedTexture2D/CompressedTexture2D::8279404392582278837::1794620205::1794620205::1::::<><><>0<>0<>15810be8747aafe861adb1bd41b81649<>res://.godot/imported/world_tileset.png-61a32465f33c3d9d3bfecb75b6485009.ctex::
-::res://assets/sprites/MinifolksHumans/::1794621509
-HumansProjectiles.png::CompressedTexture2D::565111121197806463::1794621509::1794621509::1::::<><><>0<>0<>b1d71f97370eccd60694713402ba2e5e<>res://.godot/imported/HumansProjectiles.png-8663e501b7a9892af87455071bbe1fee.ctex::
-::res://assets/sprites/MinifolksHumans/Outline/::1794621509
-MiniArcherMan.png::CompressedTexture2D::8564194743986534280::1794621509::1794621509::1::::<><><>0<>0<>300e53b01f56aa68b5e3213bece98a3f<>res://.godot/imported/MiniArcherMan.png-c865031ae248d751a882b7c7cce7f79f.ctex::
-MiniArchMage.png::CompressedTexture2D::4644293143758731305::1794621509::1794621509::1::::<><><>0<>0<>dace23a1503d5108bb66a70179cdbf08<>res://.godot/imported/MiniArchMage.png-3e3f0c42bed44b2325887662d0eb3387.ctex::
-MiniCavalierMan.png::CompressedTexture2D::7474445569162190986::1794621509::1794621509::1::::<><><>0<>0<>2ebf2622ffdfe25ae917816b64c1a3fa<>res://.godot/imported/MiniCavalierMan.png-b10f17b465d9838aa25f8cbea9626d0c.ctex::
-MiniCrossBowMan.png::CompressedTexture2D::5679199161033862659::1794621509::1794621509::1::::<><><>0<>0<>7cfe4512f7af11bc741364cb247c6f1d<>res://.godot/imported/MiniCrossBowMan.png-1f14ff620c0780bd6dea7d22ce17bd84.ctex::
-MiniHalberdMan.png::CompressedTexture2D::8160764140291862386::1794621509::1794621509::1::::<><><>0<>0<>eb61f22e3fbceb9010c6702564828552<>res://.godot/imported/MiniHalberdMan.png-506c8384a76b07e7ceb5caee14c07ad7.ctex::
-MiniHorseMan.png::CompressedTexture2D::338721500013775490::1794621509::1794621509::1::::<><><>0<>0<>ff01117a1d0e8f1a673ced8440eb7f43<>res://.godot/imported/MiniHorseMan.png-d103fea68f9c9d3d6b8cd07cb1bf0f88.ctex::
-MiniKingMan.png::CompressedTexture2D::4608442723356365872::1794621509::1794621509::1::::<><><>0<>0<>243098c7f1c831ae81d2c7014b5cc3e3<>res://.godot/imported/MiniKingMan.png-99d7ca57d33698d85d83b397883e73e6.ctex::
-MiniMage.png::CompressedTexture2D::8614672620365587979::1794621509::1794621509::1::::<><><>0<>0<>7fa1ca1204963fa34f9a04841dc67729<>res://.godot/imported/MiniMage.png-3c188a84c20dd2b0c8dff711ddc0a955.ctex::
-MiniPrinceMan.png::CompressedTexture2D::4617967768947200668::1794621509::1794621509::1::::<><><>0<>0<>92eb6993cd9596a7c9de2b0c6c8d74ab<>res://.godot/imported/MiniPrinceMan.png-844306a0dbdf7e038ff382db7980db02.ctex::
-MiniShieldMan.png::CompressedTexture2D::6952250522343328127::1794621509::1794621509::1::::<><><>0<>0<>5dac5c837467e7a54490b7f20ef712c6<>res://.godot/imported/MiniShieldMan.png-aada727367444c283891ddfde8d44985.ctex::
-MiniSpearMan.png::CompressedTexture2D::1161660943399283379::1794621509::1794621509::1::::<><><>0<>0<>3b48131aa793e40cbe7b609e98cf45ae<>res://.godot/imported/MiniSpearMan.png-43fc1c3e7c7d8727bc46eb87ddbd8fe1.ctex::
-MiniSwordMan.png::CompressedTexture2D::671240209479092042::1794621509::1794621509::1::::<><><>0<>0<>8db63de3f0159a58415f9a5a458eb123<>res://.godot/imported/MiniSwordMan.png-2b85b6783336746873e919a0c66b7187.ctex::
-::res://assets/sprites/MinifolksHumans/Without Outline/::1794621509
-MiniArcherMan.png::CompressedTexture2D::9058308472472779935::1794621509::1794621509::1::::<><><>0<>0<>3595dda87af03896f702ea5096a935dc<>res://.godot/imported/MiniArcherMan.png-b73f554e0857a6bd3201302fa724930e.ctex::
-MiniArchMage.png::CompressedTexture2D::3882715308750537092::1794621509::1794621509::1::::<><><>0<>0<>b11eb2637832e406d0dea99de9b95ee5<>res://.godot/imported/MiniArchMage.png-a58f541c84a76200247dcbc8edb2c3f7.ctex::
-MiniCavalierMan.png::CompressedTexture2D::5909858678078769124::1794621509::1794621509::1::::<><><>0<>0<>125770a550125f73910cdc1c45b5d366<>res://.godot/imported/MiniCavalierMan.png-80d0ac44212ecaf0eeb70421826799b4.ctex::
-MiniCrossBowMan.png::CompressedTexture2D::8414754949282513653::1794621509::1794621509::1::::<><><>0<>0<>ee9f912572866e172e80882ec5d53396<>res://.godot/imported/MiniCrossBowMan.png-908592e1ed98da2f86b990ba6d2a6aad.ctex::
-MiniHalberdMan.png::CompressedTexture2D::3032863024851011715::1794621509::1794621509::1::::<><><>0<>0<>c17f7d952f45eb3638cbf93fdb1f9ae6<>res://.godot/imported/MiniHalberdMan.png-68c6df9506747873f390fe786344a573.ctex::
-MiniHorseMan.png::CompressedTexture2D::560719258271284099::1794621509::1794621509::1::::<><><>0<>0<>5c68547072a42e3594ceddd9986c1473<>res://.godot/imported/MiniHorseMan.png-826f7d418f69f75cd571ff59c0d0654c.ctex::
-MiniKingMan.png::CompressedTexture2D::757922252709372013::1794621509::1794621509::1::::<><><>0<>0<>8d7fcb2a6277670ce2dad07c3b548868<>res://.godot/imported/MiniKingMan.png-c291c307be5a80e4a4639437ababef51.ctex::
-MiniMage.png::CompressedTexture2D::2779995677105284731::1794621509::1794621509::1::::<><><>0<>0<>7b3b852f2788f7c94f81c0d6af0e6760<>res://.godot/imported/MiniMage.png-1e03a7d28c6286ce88f88b002dbcfe38.ctex::
-MiniPrinceMan.png::CompressedTexture2D::7685950019801779360::1794621509::1794621509::1::::<><><>0<>0<>216c3b97ad4d707565d31e89ebd0fc6e<>res://.godot/imported/MiniPrinceMan.png-0267b340919b281ae6070abc87a1cbac.ctex::
-MiniShieldMan.png::CompressedTexture2D::7615261891474049141::1794621509::1794621509::1::::<><><>0<>0<>5c116810f759a472d3668402d7047180<>res://.godot/imported/MiniShieldMan.png-a1e78d314ca3094475ae0cc8bb91f0ee.ctex::
-MiniSpearMan.png::CompressedTexture2D::7984007242441222969::1794621509::1794621509::1::::<><><>0<>0<>0a0dbf2533b657e34aaaa1eba6f2585d<>res://.godot/imported/MiniSpearMan.png-639ab3dd946418f02285384c507d5baf.ctex::
-MiniSwordMan.png::CompressedTexture2D::962864731402737972::1794621509::1794621509::1::::<><><>0<>0<>e6d8bc5cee153f1fb881d451935264f9<>res://.godot/imported/MiniSwordMan.png-d939154b51172ec9b2d13b4b73ee44f9.ctex::
-::res://Characters(100x100 split)/::1794620205
-::res://Characters(100x100 split)/Orc/::1794620205
-::res://Characters(100x100 split)/Orc/Orc/::1794620205
-Orc.png::CompressedTexture2D/CompressedTexture2D::3060122315069403329::1794620205::1794620205::1::::<><><>0<>0<>762af47efc88a5f3c20b477b5237ebc5<>res://.godot/imported/Orc.png-5686baa035d3b06eb45e67cc101635cf.ctex::
-Orc_Attack01.png::CompressedTexture2D/CompressedTexture2D::4189320819574237801::1794620205::1794620205::1::::<><><>0<>0<>93af8566a62069fbb6eb83a2fc0ddb94<>res://.godot/imported/Orc_Attack01.png-0dcdf3afc9fd716beb900240475edf6c.ctex::
-Orc_Attack02.png::CompressedTexture2D/CompressedTexture2D::7751955330794741911::1794620205::1794620205::1::::<><><>0<>0<>0b1cf32fe9ff4166c03e3f7eab0c6142<>res://.godot/imported/Orc_Attack02.png-db06c2b5c69b0e861cbe4fbfbef9a4b5.ctex::
-Orc_Death.png::CompressedTexture2D/CompressedTexture2D::4572678565546102913::1794620205::1794620205::1::::<><><>0<>0<>70b5ac83972bcf46089deb82a78ade55<>res://.godot/imported/Orc_Death.png-1b8569d094259dd9d37b0d77df072670.ctex::
-Orc_Hurt.png::CompressedTexture2D/CompressedTexture2D::3250349462369192769::1794620205::1794620205::1::::<><><>0<>0<>1dff22dd3e53f7d99df9f3fad7a07d07<>res://.godot/imported/Orc_Hurt.png-dc9e301452f96c704539b75ec6f7b8bf.ctex::
-Orc_Idle.png::CompressedTexture2D/CompressedTexture2D::7599299606734987684::1794620205::1794620205::1::::<><><>0<>0<>fd7f526ec22000cbce36bd5468964dbd<>res://.godot/imported/Orc_Idle.png-243dc7a7dd92496b9a02a0d6198dc93a.ctex::
-Orc_Walk.png::CompressedTexture2D/CompressedTexture2D::2029747289457963350::1794620205::1794620205::1::::<><><>0<>0<>e0ba2543c12daece2612bce7c176810b<>res://.godot/imported/Orc_Walk.png-388506551b2b8c41139079f0e50f310b.ctex::
-::res://Characters(100x100 split)/Orc/Orc with shadows/::1794620205
-Orc.png::CompressedTexture2D/CompressedTexture2D::8808840068369430432::1794620205::1794620205::1::::<><><>0<>0<>94cac387b3e9d006482e051ea4f54f66<>res://.godot/imported/Orc.png-6bd91a43749d8da0216b780a9203b47f.ctex::
-Orc_Attack01.png::CompressedTexture2D/CompressedTexture2D::6228982859222285278::1794620205::1794620205::1::::<><><>0<>0<>2f9563c03b70916a43f2f955980a9bf6<>res://.godot/imported/Orc_Attack01.png-dc9c7a713b4a9f74b64cc4bcccd12cf0.ctex::
-Orc_Attack02.png::CompressedTexture2D/CompressedTexture2D::2068219905051993914::1794620205::1794620205::1::::<><><>0<>0<>4d390b23ef3a31a25d6dab3c7061f4e9<>res://.godot/imported/Orc_Attack02.png-3a39d650cc3b0bd1442846dc3cb22800.ctex::
-Orc_Death.png::CompressedTexture2D/CompressedTexture2D::5144543923479423157::1794620205::1794620205::1::::<><><>0<>0<>b5fb0c7e521c23826650efa24d893433<>res://.godot/imported/Orc_Death.png-7315e131ed0415d82e9bbe5e90a74a09.ctex::
-Orc_Hurt.png::CompressedTexture2D/CompressedTexture2D::5014597759786177280::1794620205::1794620205::1::::<><><>0<>0<>9490ddf341baa93908dbdaf255cabdec<>res://.godot/imported/Orc_Hurt.png-f1b12d09d5008ace5f52235b15b0ca0b.ctex::
-Orc_Idle.png::CompressedTexture2D/CompressedTexture2D::4996606002668327140::1794620205::1794620205::1::::<><><>0<>0<>3f6f199249abf0318d200dd6cc3dc622<>res://.godot/imported/Orc_Idle.png-8cb4b89879333d486c0ba02f3f4b9d5f.ctex::
-Orc_Walk.png::CompressedTexture2D/CompressedTexture2D::7994275712945255187::1794620205::1794620205::1::::<><><>0<>0<>9e1be9d60b86bfabc5a0395c564c9904<>res://.godot/imported/Orc_Walk.png-969128f5eeb7fe1924f48410d176b309.ctex::
-::res://Characters(100x100 split)/Soldier/::1794620205
-::res://Characters(100x100 split)/Soldier/Arrow(projectile)/::1794620205
-Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::1343980200499860220::1794620205::1794620205::1::::<><><>0<>0<>606b2114fcca6747a7dc9bfecb86133a<>res://.godot/imported/Arrow01(32x32).png-adc14128c30a2f5b7b78e9737953c732.ctex::
-Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::7952304370540515277::1794620205::1794620205::1::::<><><>0<>0<>fb0003062e8207c160e36aacbaa99a89<>res://.godot/imported/Arrow01(100x100).png-24ef23736ef40e14dd1dcddecfaac381.ctex::
-::res://Characters(100x100 split)/Soldier/Soldier/::1794620205
-Soldier.png::CompressedTexture2D/CompressedTexture2D::8300960941928088881::1794620205::1794620205::1::::<><><>0<>0<>3d22ca76c03c29bcdede15ecb87dfdbf<>res://.godot/imported/Soldier.png-839d9338117466d2f6763c4e0342c149.ctex::
-Soldier_Attack01.png::CompressedTexture2D/CompressedTexture2D::3130834577617528306::1794620205::1794620205::1::::<><><>0<>0<>5d65618b07c5309b9ccdc2684dab06dd<>res://.godot/imported/Soldier_Attack01.png-2a20929c18fe8a2f0fd0f1a3585e4c57.ctex::
-Soldier_Attack02.png::CompressedTexture2D/CompressedTexture2D::4594596782044336631::1794620205::1794620205::1::::<><><>0<>0<>d9df31b561d3ece4a0412741dbf1c0d3<>res://.godot/imported/Soldier_Attack02.png-bb09e40683580fd83d247575d45e7610.ctex::
-Soldier_Attack03.png::CompressedTexture2D/CompressedTexture2D::9072081866762924383::1794620205::1794620205::1::::<><><>0<>0<>76daef057f3abbde788cd4f97a037afb<>res://.godot/imported/Soldier_Attack03.png-3a35dc474c4d76392df2157657f4ace2.ctex::
-Soldier_Death.png::CompressedTexture2D/CompressedTexture2D::2687867406492554334::1794620205::1794620205::1::::<><><>0<>0<>3831db76b498783eeebaf1d72762d7d0<>res://.godot/imported/Soldier_Death.png-e8e1e3a2b53d9683f2594da14c88fd35.ctex::
-Soldier_Hurt.png::CompressedTexture2D/CompressedTexture2D::5797985135000106116::1794620205::1794620205::1::::<><><>0<>0<>f217797422d9f46c9c0b54062945a993<>res://.godot/imported/Soldier_Hurt.png-9044026988158748c720cb1aaf00d6d4.ctex::
-Soldier_Idle.png::CompressedTexture2D/CompressedTexture2D::8192452389737317208::1794620205::1794620205::1::::<><><>0<>0<>87de98bbd21e5193867633158811b64d<>res://.godot/imported/Soldier_Idle.png-a15a6e38ad2ea03c9b27f5cf951695c9.ctex::
-Soldier_Walk.png::CompressedTexture2D/CompressedTexture2D::8879302875464890798::1794620205::1794620205::1::::<><><>0<>0<>575722728c5c3c251cc2c070982cf848<>res://.godot/imported/Soldier_Walk.png-dd2a5a5066f83cf7444e8e6315a6d0a7.ctex::
-::res://Characters(100x100 split)/Soldier/Soldier with shadows/::1794620205
-Soldier.png::CompressedTexture2D/CompressedTexture2D::3694411590344550695::1794620205::1794620205::1::::<><><>0<>0<>ce85daec581f1bd768b890f7e19ea16c<>res://.godot/imported/Soldier.png-9e3f73d7e17fabc6a2f997ad24c62ca2.ctex::
-Soldier_Attack01.png::CompressedTexture2D/CompressedTexture2D::59742592659122100::1794620205::1794620205::1::::<><><>0<>0<>00bcc878da927de7c476af38b26a0b68<>res://.godot/imported/Soldier_Attack01.png-5b41ae71580a9260424afcac590161cb.ctex::
-Soldier_Attack02.png::CompressedTexture2D/CompressedTexture2D::5177101402952751179::1794620205::1794620205::1::::<><><>0<>0<>8a2eed2c1b5538f02711f25369fa16cf<>res://.godot/imported/Soldier_Attack02.png-12be9f9f7fbcfa6ae25daac9ec8e2c3f.ctex::
-Soldier_Attack03.png::CompressedTexture2D/CompressedTexture2D::1492723471559140497::1794620205::1794620205::1::::<><><>0<>0<>01c8e02b49a09ba1009a7ec651f04dc0<>res://.godot/imported/Soldier_Attack03.png-62d1cd05bf9d5639d7a85a6678e9de28.ctex::
-Soldier_Death.png::CompressedTexture2D/CompressedTexture2D::8954549820764189790::1794620205::1794620205::1::::<><><>0<>0<>8bf8c6dc7bbd217f7b096cc1e745c453<>res://.godot/imported/Soldier_Death.png-70f725ed92b867684e89b561e54bfbc8.ctex::
-Soldier_Hurt.png::CompressedTexture2D/CompressedTexture2D::2715014920275545628::1794620205::1794620205::1::::<><><>0<>0<>d99aab2b4456772ca019ad8192e95d24<>res://.godot/imported/Soldier_Hurt.png-ba9008d808ab59bc90f266e1a944ef50.ctex::
-Soldier_Idle.png::CompressedTexture2D/CompressedTexture2D::3221084519715998767::1794620205::1794620205::1::::<><><>0<>0<>88ec854f2c25cfd47b5b09a23d3087a2<>res://.godot/imported/Soldier_Idle.png-de5fa4f8f6ddf777d64ba38a31e50218.ctex::
-Soldier_Walk.png::CompressedTexture2D/CompressedTexture2D::1583033632723052704::1794620205::1794620205::1::::<><><>0<>0<>ad3a425576723bcb1564179649c2f328<>res://.godot/imported/Soldier_Walk.png-89ea672c253b2e2d0e540f88a60f86e5.ctex::
-::res://scenes/::1794621508
-player.tscn::PackedScene::3451002210944912339::1794621508::0::1::::<><><>0<>0<><>::uid://kkvmq3270q73::::res://assets/sprites/knight.png<>uid://dpi44qxe31l7g::::res://scripts/player.gd
-::res://scripts/::1794621206
-player.gd::GDScript::8230423184620035266::1794621206::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1794622469
+Game.tscn::PackedScene::1358830629689834378::1794621903::0::1::::<><><>0<>0<><>::uid://dp7ut0khj5crl::::res://assets/sprites/world_tileset.png<>uid://bpfxrctea716n::::res://scenes/player.tscn
+icon.svg::CompressedTexture2D/CompressedTexture2D::1550133514325293633::1794611750::1794618167::1::::<><><>0<>0<>752ca4e8695b37faa95c950b6fa682bd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1794614320::0::1::::<><><>0<>0<><>::
+::res://Arrow(Projectile)/::1794618167
+Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::8962046046039408756::1794614063::1794618167::1::::<><><>0<>0<>ad58d87cf4df1ba51a0195d64d7738fd<>res://.godot/imported/Arrow01(32x32).png-14c81a7200a8207b0a9204bd6a0e668e.ctex::
+Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::6686833145413639878::1794614063::1794618167::1::::<><><>0<>0<>40e18df719dfb3680d86ee614c71c7ab<>res://.godot/imported/Arrow01(100x100).png-62719fce38956432a4e3e2a8caddf353.ctex::
+::res://Aseprite file/::1794614063
+::res://assets/::1794618433
+::res://assets/fonts/::1794618433
+PixelOperator8-Bold.ttf::FontFile/FontFile::1727440646309687716::1794614044::1794618433::1::::<><><>0<>0<>cc10fc393ea9346f81620ae66dde0ca7<>res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata::
+PixelOperator8.ttf::FontFile/FontFile::7273851107376032223::1794614044::1794618433::1::::<><><>0<>0<>b5880eebf2225cad454cb08a219b7d0f<>res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata::
+::res://assets/music/::1794618433
+time_for_adventure.mp3::AudioStreamMP3/AudioStreamMP3::8702671327895192952::1794614044::1794618433::1::::<><><>0<>0<>ca18797d2b8c4bc644bc1198026269f4<>res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str::
+::res://assets/sounds/::1794618433
+coin.wav::AudioStreamWAV/AudioStreamWAV::4387486777171007680::1794614044::1794618433::1::::<><><>0<>0<>9c23b645b0d7a3647d1b8f65fcbfb342<>res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample::
+explosion.wav::AudioStreamWAV/AudioStreamWAV::8864759152411643328::1794614044::1794618433::1::::<><><>0<>0<>03f646da9e57973a8e67c3589ba80b8a<>res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample::
+hurt.wav::AudioStreamWAV/AudioStreamWAV::2815200886647425476::1794614044::1794618433::1::::<><><>0<>0<>08dafb6e45c96e4835db13261ef32d2d<>res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample::
+jump.wav::AudioStreamWAV/AudioStreamWAV::7493737424174671125::1794614044::1794618433::1::::<><><>0<>0<>1c60026f515245f83bbf780ebcd3bbec<>res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample::
+power_up.wav::AudioStreamWAV/AudioStreamWAV::9013889693309513697::1794614044::1794618433::1::::<><><>0<>0<>268a210aef7b525ffef4196ace6dff4f<>res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample::
+tap.wav::AudioStreamWAV/AudioStreamWAV::5960229170825922039::1794614044::1794618433::1::::<><><>0<>0<>fea436a5091de1e7958cab6d0c92714e<>res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample::
+::res://assets/sprites/::1794621903
+coin.png::CompressedTexture2D/CompressedTexture2D::6776325360766346751::1794614044::1794618433::1::::<><><>0<>0<>c783766014d45f81a1a0225701d96922<>res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex::
+fruit.png::CompressedTexture2D/CompressedTexture2D::5954543423126420189::1794614044::1794618433::1::::<><><>0<>0<>3b69562f2d054f4baef54abde0030e85<>res://.godot/imported/fruit.png-3735163b668af10c2b35b52cba81b68a.ctex::
+knight.png::CompressedTexture2D/CompressedTexture2D::723829585194523460::1794614044::1794618433::1::::<><><>0<>0<>5cfa1bae4255b4048d846ee991f9fde3<>res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex::
+platforms.png::CompressedTexture2D/CompressedTexture2D::4020336792688472979::1794614044::1794618433::1::::<><><>0<>0<>dc129f59ba31f2c762e2c340db2dad17<>res://.godot/imported/platforms.png-3869606db457611ed4193d705dc364e4.ctex::
+slime_green.png::CompressedTexture2D/CompressedTexture2D::1114520323523898970::1794614044::1794618433::1::::<><><>0<>0<>e61d09d98b104152029d821cb0ce5ca5<>res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex::
+slime_purple.png::CompressedTexture2D/CompressedTexture2D::8453500725239934853::1794614044::1794618433::1::::<><><>0<>0<>bd0ca9bf0d72e96b0d5fd0fc43305979<>res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex::
+UI.png::CompressedTexture2D/CompressedTexture2D::2703011506374536691::1794621903::1794621903::1::::<><><>0<>0<>056684834993e76814c85830a4b66ec8<>res://.godot/imported/UI.png-e2d90aaeb743ee71811c0e6b068775de.ctex::
+world_tileset.png::CompressedTexture2D/CompressedTexture2D::8279404392582278837::1794614044::1794618433::1::::<><><>0<>0<>15810be8747aafe861adb1bd41b81649<>res://.godot/imported/world_tileset.png-61a32465f33c3d9d3bfecb75b6485009.ctex::
+::res://assets/sprites/MinifolksHumans/::1794621903
+HumansProjectiles.png::CompressedTexture2D/CompressedTexture2D::565111121197806463::1794621903::1794621903::1::::<><><>0<>0<>b1d71f97370eccd60694713402ba2e5e<>res://.godot/imported/HumansProjectiles.png-8663e501b7a9892af87455071bbe1fee.ctex::
+::res://assets/sprites/MinifolksHumans/Outline/::1794621903
+MiniArcherMan.png::CompressedTexture2D/CompressedTexture2D::8564194743986534280::1794621903::1794621903::1::::<><><>0<>0<>300e53b01f56aa68b5e3213bece98a3f<>res://.godot/imported/MiniArcherMan.png-c865031ae248d751a882b7c7cce7f79f.ctex::
+MiniArchMage.png::CompressedTexture2D/CompressedTexture2D::4644293143758731305::1794621903::1794621903::1::::<><><>0<>0<>dace23a1503d5108bb66a70179cdbf08<>res://.godot/imported/MiniArchMage.png-3e3f0c42bed44b2325887662d0eb3387.ctex::
+MiniCavalierMan.png::CompressedTexture2D/CompressedTexture2D::7474445569162190986::1794621903::1794621903::1::::<><><>0<>0<>2ebf2622ffdfe25ae917816b64c1a3fa<>res://.godot/imported/MiniCavalierMan.png-b10f17b465d9838aa25f8cbea9626d0c.ctex::
+MiniCrossBowMan.png::CompressedTexture2D/CompressedTexture2D::5679199161033862659::1794621903::1794621903::1::::<><><>0<>0<>7cfe4512f7af11bc741364cb247c6f1d<>res://.godot/imported/MiniCrossBowMan.png-1f14ff620c0780bd6dea7d22ce17bd84.ctex::
+MiniHalberdMan.png::CompressedTexture2D/CompressedTexture2D::8160764140291862386::1794621903::1794621903::1::::<><><>0<>0<>eb61f22e3fbceb9010c6702564828552<>res://.godot/imported/MiniHalberdMan.png-506c8384a76b07e7ceb5caee14c07ad7.ctex::
+MiniHorseMan.png::CompressedTexture2D/CompressedTexture2D::338721500013775490::1794621903::1794621903::1::::<><><>0<>0<>ff01117a1d0e8f1a673ced8440eb7f43<>res://.godot/imported/MiniHorseMan.png-d103fea68f9c9d3d6b8cd07cb1bf0f88.ctex::
+MiniKingMan.png::CompressedTexture2D/CompressedTexture2D::4608442723356365872::1794621903::1794621903::1::::<><><>0<>0<>243098c7f1c831ae81d2c7014b5cc3e3<>res://.godot/imported/MiniKingMan.png-99d7ca57d33698d85d83b397883e73e6.ctex::
+MiniMage.png::CompressedTexture2D/CompressedTexture2D::8614672620365587979::1794621903::1794621903::1::::<><><>0<>0<>7fa1ca1204963fa34f9a04841dc67729<>res://.godot/imported/MiniMage.png-3c188a84c20dd2b0c8dff711ddc0a955.ctex::
+MiniPrinceMan.png::CompressedTexture2D/CompressedTexture2D::4617967768947200668::1794621903::1794621903::1::::<><><>0<>0<>92eb6993cd9596a7c9de2b0c6c8d74ab<>res://.godot/imported/MiniPrinceMan.png-844306a0dbdf7e038ff382db7980db02.ctex::
+MiniShieldMan.png::CompressedTexture2D/CompressedTexture2D::6952250522343328127::1794621903::1794621903::1::::<><><>0<>0<>5dac5c837467e7a54490b7f20ef712c6<>res://.godot/imported/MiniShieldMan.png-aada727367444c283891ddfde8d44985.ctex::
+MiniSpearMan.png::CompressedTexture2D/CompressedTexture2D::1161660943399283379::1794621903::1794621903::1::::<><><>0<>0<>3b48131aa793e40cbe7b609e98cf45ae<>res://.godot/imported/MiniSpearMan.png-43fc1c3e7c7d8727bc46eb87ddbd8fe1.ctex::
+MiniSwordMan.png::CompressedTexture2D/CompressedTexture2D::671240209479092042::1794621903::1794621903::1::::<><><>0<>0<>8db63de3f0159a58415f9a5a458eb123<>res://.godot/imported/MiniSwordMan.png-2b85b6783336746873e919a0c66b7187.ctex::
+::res://assets/sprites/MinifolksHumans/Without Outline/::1794621903
+MiniArcherMan.png::CompressedTexture2D/CompressedTexture2D::9058308472472779935::1794621903::1794621903::1::::<><><>0<>0<>3595dda87af03896f702ea5096a935dc<>res://.godot/imported/MiniArcherMan.png-b73f554e0857a6bd3201302fa724930e.ctex::
+MiniArchMage.png::CompressedTexture2D/CompressedTexture2D::3882715308750537092::1794621903::1794621903::1::::<><><>0<>0<>b11eb2637832e406d0dea99de9b95ee5<>res://.godot/imported/MiniArchMage.png-a58f541c84a76200247dcbc8edb2c3f7.ctex::
+MiniCavalierMan.png::CompressedTexture2D/CompressedTexture2D::5909858678078769124::1794621903::1794621903::1::::<><><>0<>0<>125770a550125f73910cdc1c45b5d366<>res://.godot/imported/MiniCavalierMan.png-80d0ac44212ecaf0eeb70421826799b4.ctex::
+MiniCrossBowMan.png::CompressedTexture2D/CompressedTexture2D::8414754949282513653::1794621903::1794621903::1::::<><><>0<>0<>ee9f912572866e172e80882ec5d53396<>res://.godot/imported/MiniCrossBowMan.png-908592e1ed98da2f86b990ba6d2a6aad.ctex::
+MiniHalberdMan.png::CompressedTexture2D/CompressedTexture2D::3032863024851011715::1794621903::1794621903::1::::<><><>0<>0<>c17f7d952f45eb3638cbf93fdb1f9ae6<>res://.godot/imported/MiniHalberdMan.png-68c6df9506747873f390fe786344a573.ctex::
+MiniHorseMan.png::CompressedTexture2D/CompressedTexture2D::560719258271284099::1794621903::1794621903::1::::<><><>0<>0<>5c68547072a42e3594ceddd9986c1473<>res://.godot/imported/MiniHorseMan.png-826f7d418f69f75cd571ff59c0d0654c.ctex::
+MiniKingMan.png::CompressedTexture2D/CompressedTexture2D::757922252709372013::1794621903::1794621903::1::::<><><>0<>0<>8d7fcb2a6277670ce2dad07c3b548868<>res://.godot/imported/MiniKingMan.png-c291c307be5a80e4a4639437ababef51.ctex::
+MiniMage.png::CompressedTexture2D/CompressedTexture2D::2779995677105284731::1794621903::1794621903::1::::<><><>0<>0<>7b3b852f2788f7c94f81c0d6af0e6760<>res://.godot/imported/MiniMage.png-1e03a7d28c6286ce88f88b002dbcfe38.ctex::
+MiniPrinceMan.png::CompressedTexture2D/CompressedTexture2D::7685950019801779360::1794621903::1794621903::1::::<><><>0<>0<>216c3b97ad4d707565d31e89ebd0fc6e<>res://.godot/imported/MiniPrinceMan.png-0267b340919b281ae6070abc87a1cbac.ctex::
+MiniShieldMan.png::CompressedTexture2D/CompressedTexture2D::7615261891474049141::1794621903::1794621903::1::::<><><>0<>0<>5c116810f759a472d3668402d7047180<>res://.godot/imported/MiniShieldMan.png-a1e78d314ca3094475ae0cc8bb91f0ee.ctex::
+MiniSpearMan.png::CompressedTexture2D/CompressedTexture2D::7984007242441222969::1794621903::1794621903::1::::<><><>0<>0<>0a0dbf2533b657e34aaaa1eba6f2585d<>res://.godot/imported/MiniSpearMan.png-639ab3dd946418f02285384c507d5baf.ctex::
+MiniSwordMan.png::CompressedTexture2D/CompressedTexture2D::962864731402737972::1794621903::1794621903::1::::<><><>0<>0<>e6d8bc5cee153f1fb881d451935264f9<>res://.godot/imported/MiniSwordMan.png-d939154b51172ec9b2d13b4b73ee44f9.ctex::
+::res://Characters(100x100 split)/::1794614458
+::res://Characters(100x100 split)/Orc/::1794614458
+::res://Characters(100x100 split)/Orc/Orc/::1794618167
+Orc.png::CompressedTexture2D/CompressedTexture2D::3060122315069403329::1794614063::1794618167::1::::<><><>0<>0<>762af47efc88a5f3c20b477b5237ebc5<>res://.godot/imported/Orc.png-5686baa035d3b06eb45e67cc101635cf.ctex::
+Orc_Attack01.png::CompressedTexture2D/CompressedTexture2D::4189320819574237801::1794614063::1794618167::1::::<><><>0<>0<>93af8566a62069fbb6eb83a2fc0ddb94<>res://.godot/imported/Orc_Attack01.png-0dcdf3afc9fd716beb900240475edf6c.ctex::
+Orc_Attack02.png::CompressedTexture2D/CompressedTexture2D::7751955330794741911::1794614063::1794618167::1::::<><><>0<>0<>0b1cf32fe9ff4166c03e3f7eab0c6142<>res://.godot/imported/Orc_Attack02.png-db06c2b5c69b0e861cbe4fbfbef9a4b5.ctex::
+Orc_Death.png::CompressedTexture2D/CompressedTexture2D::4572678565546102913::1794614063::1794618167::1::::<><><>0<>0<>70b5ac83972bcf46089deb82a78ade55<>res://.godot/imported/Orc_Death.png-1b8569d094259dd9d37b0d77df072670.ctex::
+Orc_Hurt.png::CompressedTexture2D/CompressedTexture2D::3250349462369192769::1794614063::1794618167::1::::<><><>0<>0<>1dff22dd3e53f7d99df9f3fad7a07d07<>res://.godot/imported/Orc_Hurt.png-dc9e301452f96c704539b75ec6f7b8bf.ctex::
+Orc_Idle.png::CompressedTexture2D/CompressedTexture2D::7599299606734987684::1794614063::1794618167::1::::<><><>0<>0<>fd7f526ec22000cbce36bd5468964dbd<>res://.godot/imported/Orc_Idle.png-243dc7a7dd92496b9a02a0d6198dc93a.ctex::
+Orc_Walk.png::CompressedTexture2D/CompressedTexture2D::2029747289457963350::1794614063::1794618167::1::::<><><>0<>0<>e0ba2543c12daece2612bce7c176810b<>res://.godot/imported/Orc_Walk.png-388506551b2b8c41139079f0e50f310b.ctex::
+::res://Characters(100x100 split)/Orc/Orc with shadows/::1794618167
+Orc.png::CompressedTexture2D/CompressedTexture2D::8808840068369430432::1794614063::1794618167::1::::<><><>0<>0<>94cac387b3e9d006482e051ea4f54f66<>res://.godot/imported/Orc.png-6bd91a43749d8da0216b780a9203b47f.ctex::
+Orc_Attack01.png::CompressedTexture2D/CompressedTexture2D::6228982859222285278::1794614063::1794618167::1::::<><><>0<>0<>2f9563c03b70916a43f2f955980a9bf6<>res://.godot/imported/Orc_Attack01.png-dc9c7a713b4a9f74b64cc4bcccd12cf0.ctex::
+Orc_Attack02.png::CompressedTexture2D/CompressedTexture2D::2068219905051993914::1794614063::1794618167::1::::<><><>0<>0<>4d390b23ef3a31a25d6dab3c7061f4e9<>res://.godot/imported/Orc_Attack02.png-3a39d650cc3b0bd1442846dc3cb22800.ctex::
+Orc_Death.png::CompressedTexture2D/CompressedTexture2D::5144543923479423157::1794614063::1794618167::1::::<><><>0<>0<>b5fb0c7e521c23826650efa24d893433<>res://.godot/imported/Orc_Death.png-7315e131ed0415d82e9bbe5e90a74a09.ctex::
+Orc_Hurt.png::CompressedTexture2D/CompressedTexture2D::5014597759786177280::1794614063::1794618167::1::::<><><>0<>0<>9490ddf341baa93908dbdaf255cabdec<>res://.godot/imported/Orc_Hurt.png-f1b12d09d5008ace5f52235b15b0ca0b.ctex::
+Orc_Idle.png::CompressedTexture2D/CompressedTexture2D::4996606002668327140::1794614063::1794618167::1::::<><><>0<>0<>3f6f199249abf0318d200dd6cc3dc622<>res://.godot/imported/Orc_Idle.png-8cb4b89879333d486c0ba02f3f4b9d5f.ctex::
+Orc_Walk.png::CompressedTexture2D/CompressedTexture2D::7994275712945255187::1794614063::1794618167::1::::<><><>0<>0<>9e1be9d60b86bfabc5a0395c564c9904<>res://.godot/imported/Orc_Walk.png-969128f5eeb7fe1924f48410d176b309.ctex::
+::res://Characters(100x100 split)/Soldier/::1794614458
+::res://Characters(100x100 split)/Soldier/Arrow(projectile)/::1794618167
+Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::1343980200499860220::1794614063::1794618167::1::::<><><>0<>0<>606b2114fcca6747a7dc9bfecb86133a<>res://.godot/imported/Arrow01(32x32).png-adc14128c30a2f5b7b78e9737953c732.ctex::
+Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::7952304370540515277::1794614063::1794618167::1::::<><><>0<>0<>fb0003062e8207c160e36aacbaa99a89<>res://.godot/imported/Arrow01(100x100).png-24ef23736ef40e14dd1dcddecfaac381.ctex::
+::res://Characters(100x100 split)/Soldier/Soldier/::1794618167
+Soldier.png::CompressedTexture2D/CompressedTexture2D::8300960941928088881::1794614063::1794618167::1::::<><><>0<>0<>3d22ca76c03c29bcdede15ecb87dfdbf<>res://.godot/imported/Soldier.png-839d9338117466d2f6763c4e0342c149.ctex::
+Soldier_Attack01.png::CompressedTexture2D/CompressedTexture2D::3130834577617528306::1794614063::1794618167::1::::<><><>0<>0<>5d65618b07c5309b9ccdc2684dab06dd<>res://.godot/imported/Soldier_Attack01.png-2a20929c18fe8a2f0fd0f1a3585e4c57.ctex::
+Soldier_Attack02.png::CompressedTexture2D/CompressedTexture2D::4594596782044336631::1794614063::1794618167::1::::<><><>0<>0<>d9df31b561d3ece4a0412741dbf1c0d3<>res://.godot/imported/Soldier_Attack02.png-bb09e40683580fd83d247575d45e7610.ctex::
+Soldier_Attack03.png::CompressedTexture2D/CompressedTexture2D::9072081866762924383::1794614063::1794618167::1::::<><><>0<>0<>76daef057f3abbde788cd4f97a037afb<>res://.godot/imported/Soldier_Attack03.png-3a35dc474c4d76392df2157657f4ace2.ctex::
+Soldier_Death.png::CompressedTexture2D/CompressedTexture2D::2687867406492554334::1794614063::1794618167::1::::<><><>0<>0<>3831db76b498783eeebaf1d72762d7d0<>res://.godot/imported/Soldier_Death.png-e8e1e3a2b53d9683f2594da14c88fd35.ctex::
+Soldier_Hurt.png::CompressedTexture2D/CompressedTexture2D::5797985135000106116::1794614063::1794618167::1::::<><><>0<>0<>f217797422d9f46c9c0b54062945a993<>res://.godot/imported/Soldier_Hurt.png-9044026988158748c720cb1aaf00d6d4.ctex::
+Soldier_Idle.png::CompressedTexture2D/CompressedTexture2D::8192452389737317208::1794614063::1794618167::1::::<><><>0<>0<>87de98bbd21e5193867633158811b64d<>res://.godot/imported/Soldier_Idle.png-a15a6e38ad2ea03c9b27f5cf951695c9.ctex::
+Soldier_Walk.png::CompressedTexture2D/CompressedTexture2D::8879302875464890798::1794614063::1794618167::1::::<><><>0<>0<>575722728c5c3c251cc2c070982cf848<>res://.godot/imported/Soldier_Walk.png-dd2a5a5066f83cf7444e8e6315a6d0a7.ctex::
+::res://Characters(100x100 split)/Soldier/Soldier with shadows/::1794618167
+Soldier.png::CompressedTexture2D/CompressedTexture2D::3694411590344550695::1794614063::1794618167::1::::<><><>0<>0<>ce85daec581f1bd768b890f7e19ea16c<>res://.godot/imported/Soldier.png-9e3f73d7e17fabc6a2f997ad24c62ca2.ctex::
+Soldier_Attack01.png::CompressedTexture2D/CompressedTexture2D::59742592659122100::1794614063::1794618167::1::::<><><>0<>0<>00bcc878da927de7c476af38b26a0b68<>res://.godot/imported/Soldier_Attack01.png-5b41ae71580a9260424afcac590161cb.ctex::
+Soldier_Attack02.png::CompressedTexture2D/CompressedTexture2D::5177101402952751179::1794614063::1794618167::1::::<><><>0<>0<>8a2eed2c1b5538f02711f25369fa16cf<>res://.godot/imported/Soldier_Attack02.png-12be9f9f7fbcfa6ae25daac9ec8e2c3f.ctex::
+Soldier_Attack03.png::CompressedTexture2D/CompressedTexture2D::1492723471559140497::1794614063::1794618167::1::::<><><>0<>0<>01c8e02b49a09ba1009a7ec651f04dc0<>res://.godot/imported/Soldier_Attack03.png-62d1cd05bf9d5639d7a85a6678e9de28.ctex::
+Soldier_Death.png::CompressedTexture2D/CompressedTexture2D::8954549820764189790::1794614063::1794618167::1::::<><><>0<>0<>8bf8c6dc7bbd217f7b096cc1e745c453<>res://.godot/imported/Soldier_Death.png-70f725ed92b867684e89b561e54bfbc8.ctex::
+Soldier_Hurt.png::CompressedTexture2D/CompressedTexture2D::2715014920275545628::1794614063::1794618167::1::::<><><>0<>0<>d99aab2b4456772ca019ad8192e95d24<>res://.godot/imported/Soldier_Hurt.png-ba9008d808ab59bc90f266e1a944ef50.ctex::
+Soldier_Idle.png::CompressedTexture2D/CompressedTexture2D::3221084519715998767::1794614063::1794618167::1::::<><><>0<>0<>88ec854f2c25cfd47b5b09a23d3087a2<>res://.godot/imported/Soldier_Idle.png-de5fa4f8f6ddf777d64ba38a31e50218.ctex::
+Soldier_Walk.png::CompressedTexture2D/CompressedTexture2D::1583033632723052704::1794614063::1794618167::1::::<><><>0<>0<>ad3a425576723bcb1564179649c2f328<>res://.godot/imported/Soldier_Walk.png-89ea672c253b2e2d0e540f88a60f86e5.ctex::
+::res://scenes/::1794622424
+player.tscn::PackedScene::3451002210944912339::1794622424::0::1::::<><><>0<>0<><>::uid://dpi44qxe31l7g::::res://scripts/player.gd<>uid://b6wmm4m0de1n5::::res://assets/sprites/MinifolksHumans/Outline/MiniKingMan.png
+::res://scripts/::1794619645
+player.gd::GDScript::8230423184620035266::1794619645::0::1::::<>CharacterBody2D<><>0<>0<><>::
