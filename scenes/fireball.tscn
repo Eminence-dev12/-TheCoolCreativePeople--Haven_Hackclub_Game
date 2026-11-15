@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://c5f5fshe5mms"]
+
+[ext_resource type="Script" uid="uid://bcbsmd82jt012" path="res://scenes/fireball.gd" id="1_1gl40"]
+[ext_resource type="Texture2D" uid="uid://ib0kea70num6" path="res://assets/sprites/MinifolksHumans/HumansProjectiles.png" id="1_3s14c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gl40"]
+atlas = ExtResource("1_3s14c")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cb14k"]
+atlas = ExtResource("1_3s14c")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3s14c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gl40")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cb14k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1gl40"]
+radius = 5.0
+
+[node name="fireball" type="CharacterBody2D" unique_id=134308729]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_1gl40")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=376573447]
+position = Vector2(0.5, -0.5)
+scale = Vector2(1.0625, 1.0625)
+sprite_frames = SubResource("SpriteFrames_3s14c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1984503132]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_1gl40")

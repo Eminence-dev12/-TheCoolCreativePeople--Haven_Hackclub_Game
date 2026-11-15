@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://bpfxrctea716n"]
+[gd_scene format=3 uid="uid://bpfxrctea716n"]
 
 [ext_resource type="Script" uid="uid://dpi44qxe31l7g" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://b6wmm4m0de1n5" path="res://assets/sprites/MinifolksHumans/Outline/MiniKingMan.png" id="2_g2els"]
@@ -118,7 +118,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tuyoq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idol",
 "speed": 8.0
 }, {
@@ -138,7 +138,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_d2wvv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"jump",
 "speed": 5.0
 }, {
@@ -161,7 +161,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qfm1y")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 8.0
 }, {
@@ -196,7 +196,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_31cv2")
 }],
-"loop": false,
+"loop": 0,
 "name": &"smak",
 "speed": 15.0
 }]
@@ -204,19 +204,19 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_fjrip"]
 radius = 6.0
 
-[node name="Prince" type="CharacterBody2D"]
+[node name="Prince" type="CharacterBody2D" unique_id=95058322]
 script = ExtResource("1_g2els")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=134567168]
 position = Vector2(4.5, -4.5)
 scale = Vector2(1.28125, 1.28125)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
 animation = &"smak"
 autoplay = "idol"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1033885722]
 position = Vector2(5, 9)
 shape = SubResource("CircleShape2D_fjrip")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=790186541]
 zoom = Vector2(2.5, 2.5)

@@ -47,6 +47,14 @@ func _on_animation_finished() -> void:
 	add_child(arrow)
 	arrow.global_position = global_position
 	arrow.shoot(player_target)
+
+func _on_hurtbox_area_entered(area: Area2D) -> void:
+	# Check if the object that hit the enemy is a fireball
+	if area.is_in_group(\"fireball\"):
+		# Destroy the fireball
+		area.queue_free()
+		# Destroy the enemy
+		queue_free()
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a8oew"]
@@ -293,6 +301,7 @@ animations = [{
 radius = 6.0
 
 [node name="ArcherEnemy" type="CharacterBody2D" unique_id=811571714]
+collision_mask = 2
 script = SubResource("GDScript_3owqy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=470836271]
