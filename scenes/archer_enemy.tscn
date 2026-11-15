@@ -222,7 +222,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"fire",
-"speed": 5.0
+"speed": 30.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -298,7 +298,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_528ra"]
-radius = 6.0
+radius = 8.5440035
 
 [node name="ArcherEnemy" type="CharacterBody2D" unique_id=811571714]
 collision_mask = 2
@@ -313,7 +313,7 @@ autoplay = "idol"
 frame_progress = 0.7295101
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1184963791]
-position = Vector2(5, 9)
+position = Vector2(5, 7)
 shape = SubResource("CircleShape2D_528ra")
 
 [node name="vision" type="RayCast2D" parent="." unique_id=1483667641]
